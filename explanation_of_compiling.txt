@@ -1,0 +1,15 @@
+First: you have to type gcc -lncurses -lcjson todo_list.c -o todo.exe
+Second: you have to install the cjson library and ncurses library
+(Brew install ncurses and brew install cjson)
+Third: ./todo.exe (or whatever name that you picked)
+Third(if you encounter a problem): find out where it has been stored by typing :find /usr/local/lib /usr/lib /opt/homebrew/lib -name "libcjson.1.dylib" 2>/dev/null
+And then with the addresses that you have got from the command above
+You have to type these two command with that address:
+export DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH=/usr/local/lib:$DYLD_LIBRARY_PATH
+Fourth : run the ./todo.exe command
+
+
+
+
+I wanted to add the mingw file as the pdf asked to but the quera didn't accept the file because of the size of it.
