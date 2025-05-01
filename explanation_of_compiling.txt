@@ -8,8 +8,3 @@ You have to type these two command with that address:
 export DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH
 export DYLD_LIBRARY_PATH=/usr/local/lib:$DYLD_LIBRARY_PATH
 Fourth : run the ./todo.exe command
-
-
-
-
-I wanted to add the mingw file as the pdf asked to but the quera didn't accept the file because of the size of it.
